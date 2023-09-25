@@ -1,0 +1,61 @@
+@media only screen and (max-width:770px){
+    .nav{
+        font-size: 1.3rem;
+        height: 15vh;
+    }
+    .screen{
+        width: 60vw;
+    }
+    .calc{
+        width: 60vw;
+    }
+    .btn{
+        width: 10vw;
+    }
+    .nav-btn{
+        width: 10vw;
+    }
+    .footer{
+        height: 20vh;
+    }
+}
+@media only screen and (max-width:600px){
+    .nav{
+        font-size: 1.3rem;
+    }
+    .screen{
+        width: 80vw;
+    }
+    .calc{
+        width: 80vw;
+    }
+    .btn{
+        width: 15vw;
+    }
+    .nav-btn{
+        width: 15vw;
+    }
+}
+@media only screen and (max-width:440px){
+    .nav{
+        font-size: 1.3rem;
+    }
+    .screen{
+        width: 80vw;
+    }
+    .calc{
+        width: 80vw;
+    }
+    .btn{
+        width: 15vw;
+    }
+    .resp-hide{
+        display: none;
+    }
+    .footer>p{
+        font-size: 1rem;
+    }
+    .nav-btn{
+        width: 20vw;
+    }
+}

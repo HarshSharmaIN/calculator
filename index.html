@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="assets/calclogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <div class="nav">
+        <div style="display: flex; gap:3vw; align-items: center;">
+            <img src="assets/calclogo.png" alt="" height="50px">
+            <p class="resp-hide">Welcome to Calculator</p>
+        </div>
+        <div class="nav-btn">
+            <button class="dark"><i class="fa-solid fa-circle-half-stroke fa-2xl"></i></button>
+            <button class="dark" id="toggle"><i class="fa-solid fa-arrows-up-down fa-2xl"></i></button>
+        </div>
+    </div>
+    <div class="screen">
+        <h2>0</h2>
+    </div>
+    <div class="calc">
+        <button class="btn aquam hidden btn-hide"><i class="fa-solid fa-square-root-variable"></i>Math.sqrt(</button>
+        <button class="btn aquam hidden btn-hide"><i class="fa-solid fa-superscript"></i>Math.pow(</button>
+        <button class="btn aquam hidden btn-hide"><i class="fa-solid fa-exclamation"></i>!</button>
+        <button class="btn aquam hidden btn-hide"><i class="ang">log</i></button>
+        <button class="btn topbtn purpled"><i class="fa-solid fa-c"></i>CE</button>
+        <button class="btn topbtn purpled"><i class="fa-solid fa-delete-left"></i>DEL</button>
+        <button class="btn aquam"><i class="fa-solid fa-percent"></i>%</button>
+        <button class="btn aquam"><i class="fa-solid fa-divide"></i>/</button>
+        <button class="btn"><i class="fa-solid fa-9"></i>9</button>
+        <button class="btn"><i class="fa-solid fa-8"></i>8</button>
+        <button class="btn"><i class="fa-solid fa-7"></i>7</button>
+        <button class="btn plus aquam" id="plus"><i class="fa-solid fa-plus"></i>+</button>
+        <button class="btn"><i class="fa-solid fa-6"></i>6</button>
+        <button class="btn"><i class="fa-solid fa-5"></i>5</button>
+        <button class="btn"><i class="fa-solid fa-4"></i>4</button>
+        <button class="btn"><i class="fa-solid fa-3"></i>3</button>
+        <button class="btn"><i class="fa-solid fa-2"></i>2</button>
+        <button class="btn"><i class="fa-solid fa-1"></i>1</button>
+        <button class="btn aquam"><i class="fa-solid fa-xmark"></i>*</button>
+        <button class="btn aquam dot">.</button>
+        <button class="btn zero"><i class="fa-solid fa-0"></i>0</button>
+        <button class="btn equal"><i class="fa-solid fa-equals"></i>=</button>
+        <button class="btn minus aquam"><i class="fa-solid fa-minus"></i>-</button>
+        <button class="btn aquam hidden btn-hide"><i class="fa-solid">&pi;</i></button>
+        <button class="btn aquam hidden btn-hide"><i class="ang">sin</i></button>
+        <button class="btn aquam hidden btn-hide"><i class="ang">cos</i></button>
+        <button class="btn aquam hidden btn-hide"><i class="ang">tan</i></button>
+    </div>
+
+    <div class="footer center-column">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/harsh-sharma-b85334208/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            <a href="https://www.instagram.com/harshsharmaasl/" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            <a href="https://www.hackerrank.com/harshsharmaasl" target="_blank"><i class="fa-brands fa-hackerrank fa-2xl"></i></a>
+            <a href="https://github.com/HarshSharmaIN" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+        </div>
+        <p>Copyright &copy; Harsh Sharma 2023-2024</p>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/1feb8c7a0a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
